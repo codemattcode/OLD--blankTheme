@@ -1,0 +1,141 @@
+@import 'css/basic-reset.css';
+@import 'css/modest-grid.css';
+@import 'css/site-nav.css';
+
+/*
+Theme Name: BlankTheme
+Author: WebPrintAudio
+Author URI: http://webprintaudio.com
+Version: 1.0
+*/
+
+.bo {
+  border: 1px solid red;
+}
+
+body {
+  font-family: arial;
+  background: #fff;
+  color: #58595b;
+}
+
+header {
+  background: #f4f4f4;
+  padding: 50px 0 20px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+h1.brand{
+  font-size: 1em;
+  font-weight: 300;
+}
+
+
+
+/* CONTENT */
+.fixed-width {
+  max-width: 600px;
+}
+
+.widget-section-one-hero-title {
+  font-size: 2em;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 20px;
+}
+.widget-section-one-hero-txt {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+  padding: 10px 0;
+  float: none;
+  clear: both;
+}
+.site-footer {
+  padding-top: 15px;
+  /*border-top: 1px solid #999;*/
+}
+.nav-footer ul li{
+  padding-right: 10px;
+  border-right: 1px dotted #BBB;
+}
+
+.masthead {
+  background: red;
+}
+
+
+/* BLOG POSTS */
+
+
+
+/* FEATURED IMAGE */
+
+
+/* SINGLE POSTS */
+
+
+
+
+
+
+
+
+
+
+/* STANDARD PAGE */
+
+h2.page-title {
+  color: purple;
+}
+.page-copy {
+  color: blue;
+}
+
+
+
+
+
+
+/* CALLOUT SECTION | CUSTOM EDITABLE THEME CONTENT */
+/*.footer-callout {
+
+}*/
+h2.callout-h2 {
+  margin-bottom: 20px;
+}
+/*.footer-callout-image {
+  
+}
+.footer-callout-text {
+  
+}*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+/* Navigation Menus */
+.site-nav {
+  text-align: center;
+}
+.site-nav ul {
+  display: inline-block;
+}
+.site-nav ul li {
+  list-style: none;
+  /*float: left;*/
+  margin-right: 10px;
+}
+
+/* .current_page_item and .current-page-ancestor are wordpress features s*/
+.site-nav ul li.current-menu-item a:link,
+.site-nav ul li.current-menu-item a:visited,
+.site-nav ul li.current-page-ancestor a:link,
+.site-nav ul li.current-page-ancestor a:visited {
+  color: red;
+}
+/*.site-nav ul li:last-of-type {
+  margin-right: 0;
+}*/
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+.social-nav {
+ height: 30px;
+ float: right;
+}
+
+.header-nav {
+  height: 30px;
+}
+
+
+
+
+/* SUB MENU NAVIGATION */
+.page-sub_menu {
+  font-size: 1em
+}
+.sub-menu-links {
+  font-size: 80%;
+}
+/* .current_page_item is a wordpress feature */
+.sub-menu-links .current_page_item a:link,
+.sub-menu-links .current_page_item a:visited {
+  border-bottom: 1px solid #333;
+  cursor: default;
+}
+span.parent-link {
+  float: left;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+}
+
+
+
+
